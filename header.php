@@ -2,7 +2,7 @@
 	<div class= "container">
 		<div class="row">
 			<div class="col">
-				<h5 style="margin-top:8px;">frog Credit Union</h5>
+				<h5 style="margin-top:8px;">Frog Credit Union</h5>
 			</div>
 			
 			<div class="col">
