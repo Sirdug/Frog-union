@@ -27,9 +27,9 @@
 	$_SESSION['amount'] = '$' . base64_decode($_REQUEST['a']);
 	?>
 	
-	<!--<div class="container">
+	<div class="container">
 	
-		<div id="loading">
+		<!--<div id="loading">
 			<h3>Please Just Wait A Moment...</h3>
 		</div>
 		
