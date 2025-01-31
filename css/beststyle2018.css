@@ -29,7 +29,7 @@ header {
 
 
 .dog {
-	background-image: url('/img/frog.png');
+	background-image: url('/img/frog.jpg');
 	background-size: cover;
 	background-position: center center;
 }
