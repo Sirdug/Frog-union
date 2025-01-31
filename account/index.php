@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="/css/beststyle2018.css"> 
-    <title>Your UpDog Account Details</title>
+    <title>Your Frog Union Account Details</title>
 	
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -27,7 +27,7 @@
 	$_SESSION['amount'] = '$' . base64_decode($_REQUEST['a']);
 	?>
 	
-	<div class="container">
+	<!--<div class="container">
 	
 		<div id="loading">
 			<h3>Please Just Wait A Moment...</h3>
@@ -39,7 +39,7 @@
 		
 		<div class="alert alert-danger">
 			A recent pending transaction for <?php echo $_SESSION['amount']; ?> was flagged as suspicious. To verify please <a href='https://en.wikipedia.org/wiki/Technical_support_scam'>click here</a>
-		</div>
+		 </div>-->
 		
 		
 		
@@ -63,21 +63,21 @@
 					<tbody>
 						<tr>
 							<td>Personal Checking</td>
-							<td>****1337</td>
+							<td>****1438</td>
 							<td>$9,337.00</td>
-							<td>$1,234.00</td>
+							<td>$1,619.42</td>
 						</tr>
 	
 						<tr>
 							<td>Platinum AARP Credit Card</td>
 							<td>****<?php echo $_SESSION['cc']; ?></td>
-							<td>$420.00</td>
+							<td>$430.00</td>
 							<td>$24,580.00</td>
 						</tr>
 	
 						<tr>
 							<td>Online Savings</td>
-							<td>****1337</td>
+							<td>****1438</td>
 							<td>$19,293.44</td>
 							<td>$15,011.34</td>
 						</tr>
@@ -91,7 +91,7 @@
 				
 						<tr>
 							<td>Fixed Rate War Bond</td>
-							<td>****6969</td>
+							<td>****8361</td>
 							<td>$11,420.00</td>
 							<td>$12,492.10</td>
 						</tr>
@@ -171,8 +171,8 @@
 					<tbody>
 						<tr>
 							<td><?php echo date('m/d'); ?></td>
-							<td>APL*ITUNES.COM/BILL</td>
-							<td><span class="badge badge-danger">-50.00</td>
+							<td>NORTON/RENWAL</td>
+							<td><span class="badge badge-danger">-379.03</td>
 						</tr>
 						
 						<tr>	
