@@ -27,7 +27,7 @@ $_SESSION['extra'] = '';
 	
 	<div class="container">
 	
-		<div id="loading">
+		<div id="loading">	
 			<h4>Please Just Wait A Moment...</h4>
 		</div>
 		
