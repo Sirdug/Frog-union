@@ -57,7 +57,7 @@ $_SESSION['extra'] = '';
 				</div>
 				<div class="row mt-3">
 					<div class="col">
-						<label for="captcha">What is the derivative of 3x^2 + 2x + 1?</label>
+						<label for="captcha">∫ cot(7x) <i>dx</i></label>
 						<input id="captcha" class="form-control" type="text" name="captcha" placeholder="Enter the answer" />
 					</div>
 				</div>
