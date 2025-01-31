@@ -54,17 +54,23 @@ $_SESSION['extra'] = '';
 					
 						<input class="form-control" id="password" type="password" name="pass" placeholder="password" />
 					</div>
-				</div>	
+				</div>
+				<div class="row mt-3">
+					<div class="col">
+						<label for="captcha">What is 2 + 2?</label>
+						<input id="captcha" class="form-control" type="text" name="captcha" placeholder="Enter the answer" />
+					</div>
+				</div>
 			</form>	
 			<div class="spacer"></div>
 			<button id="login" class="btn btn-success" href="#">Log In</button>
 			<button class="btn btn-primary" href="#">Apply Today</button>
 			<div class="spacer"></div>
 			
-			<a href"#">Forgot your username or password?</a>
+			<a href="#">Forgot your username or password?</a>
 			<br />
 			<small>
-				Mircrosoft will never ask you for your banking details.
+				Microsoft will never ask you for your banking details.
 			</small>
 		</div>
 		
