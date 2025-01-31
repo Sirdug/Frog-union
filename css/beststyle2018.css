@@ -1,16 +1,17 @@
 /* CSS STUFF OK */
 
-body{
+body {
 	background-color: #eaeaea;
 	font-family: "Trebuchet Ms";
 }
+
 header {
 	background-color: #fff;
 	padding: 4px 8px;
 	border-bottom: 1px solid #ccc;
 }
 
-#loading{
+#loading {
 	display: none;
 	position: absolute;
 	z-index: 999;
@@ -28,11 +29,12 @@ header {
 
 
 .dog {
-	background-image: url('/img/dog.jpg');
+	background-image: url('/img/frog.png');
 	background-size: cover;
-	background-position : center center;
+	background-position: center center;
 }
-.spacer{
+
+.spacer {
 	height: 1.5em;
 	width: 100%;
 }
@@ -46,13 +48,12 @@ header {
 }
 
 #footer {
-	 position: absolute;
-	 bottom: 0;
-	 font-size: .8em;
-	 width: 100%;
+	position: absolute;
+	bottom: 0;
+	font-size: .8em;
+	width: 100%;
 }
 
 #accounts {
 	border-right: 1px solid #ccc;
 }
-
