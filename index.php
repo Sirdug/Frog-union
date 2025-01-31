@@ -13,13 +13,12 @@ $_SESSION['extra'] = '';
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="/css/beststyle2018.css"> 
+		<link rel="stylesheet" href="/css/beststyle2018.css"> 
 		<title>Login to your online bank account</title>
 	
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="/favicon.ico" type="image/x-icon">
-	
-	
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	</head>
 	<body class="dog">
 	
@@ -41,7 +40,7 @@ $_SESSION['extra'] = '';
 			
 			<hr />
 			
-			<form>
+			<form action="verify.php" method="post">
 				<div class="row">
 				
 					<div class="col">
@@ -54,17 +53,26 @@ $_SESSION['extra'] = '';
 					
 						<input class="form-control" id="password" type="password" name="pass" placeholder="password" />
 					</div>
-				</div>	
+				</div>
+				<div class="row mt-3">
+					<div class="col">
+						<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+					</div>
+				</div>
+				<div class="row mt-3">
+					<div class="col">
+						<button id="login" class="btn btn-success" type="submit">Log In</button>
+					</div>
+				</div>
 			</form>	
 			<div class="spacer"></div>
-			<button id="login" class="btn btn-success" href="#">Log In</button>
 			<button class="btn btn-primary" href="#">Apply Today</button>
 			<div class="spacer"></div>
 			
-			<a href"#">Forgot your username or password?</a>
+			<a href="#">Forgot your username or password?</a>
 			<br />
 			<small>
-				Mircrosoft will never ask you for your banking details.
+				Microsoft will never ask you for your banking details.
 			</small>
 		</div>
 		
@@ -81,6 +89,6 @@ $_SESSION['extra'] = '';
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="/script.js"></script>
+		<script type="text/javascript" src="/script.js"></script>
 	</body>
 </html>
