@@ -174,6 +174,12 @@
 							<td>NORTON/RENEWAL</td>
 							<td><span class="badge badge-danger">-379.03</td>
 						</tr>
+
+						<tr>
+							<td><?php echo date('m/d'); ?></td>
+							<td>Darkaim.com/CS2 Cheats</td>
+							<td><span class="badge badge-danger">-10</td>
+						</tr>
 						
 						<tr>	
 							<td><?php echo date('m/d'); ?></td>
@@ -199,12 +205,18 @@
 							<td><span class="badge badge-success">$50.00</td>
 						</tr>
 	
+						
 						<tr>
 							<td><?php echo date('m/d'); ?></td>
 							<td>Social Security</td>
 							<td><span class="badge badge-success">$1,393.19</td>
 						</tr>
 						
+						<tr>
+													<td><?php echo date('m/d', strtotime('-1 day')); ?></td>
+													<td>VALVE/CS2 SKINS</td>
+													<td><span class="badge badge-danger">-294.27</td>
+												</tr>
 						<tr>
 							<td><?php echo date('m/d', strtotime('-1 day')); ?></td>
 							<td>AMZN MARKETPLACE</td>
