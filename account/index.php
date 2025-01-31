@@ -171,7 +171,7 @@
 					<tbody>
 						<tr>
 							<td><?php echo date('m/d'); ?></td>
-							<td>NORTON/RENWAL</td>
+							<td>NORTON/RENEWAL</td>
 							<td><span class="badge badge-danger">-379.03</td>
 						</tr>
 						
@@ -235,7 +235,7 @@
 						<tr>
 							<td><?php echo date('m/d',  strtotime('-4 days')); ?></td>
 							<td>McDonald's</td>
-							<td><span class="badge badge-danger">-$18.20</td>
+							<td><span class="badge badge-danger">-$1,838.20</td>
 						</tr>
 					</tbody>
 				</table>
