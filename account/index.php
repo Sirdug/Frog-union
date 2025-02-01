@@ -171,6 +171,12 @@
 					<tbody>
 						<tr>
 							<td><?php echo date('m/d'); ?></td>
+							<td>bad-dragon.com/15" Chance flared</td>
+							<td><span class="badge badge-danger">-230.00</td>
+						</tr>
+
+						<tr>
+							<td><?php echo date('m/d'); ?></td>
 							<td>Darkaim.com/CS2 Cheats</td>
 							<td><span class="badge badge-danger">-10.00</td>
 						</tr>
