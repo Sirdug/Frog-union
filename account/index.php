@@ -171,12 +171,6 @@
 					<tbody>
 						<tr>
 							<td><?php echo date('m/d'); ?></td>
-							<td>NORTON/RENEWAL</td>
-							<td><span class="badge badge-danger">-379.03</td>
-						</tr>
-
-						<tr>
-							<td><?php echo date('m/d'); ?></td>
 							<td>Darkaim.com/CS2 Cheats</td>
 							<td><span class="badge badge-danger">-10.00</td>
 						</tr>
