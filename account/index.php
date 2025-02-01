@@ -213,10 +213,11 @@
 						</tr>
 						
 						<tr>
-													<td><?php echo date('m/d', strtotime('-1 day')); ?></td>
-													<td>VALVE/CS2 SKINS</td>
-													<td><span class="badge badge-danger">-294.27</td>
-												</tr>
+							<td><?php echo date('m/d', strtotime('-1 day')); ?></td>
+							<td>VALVE/CS2 SKINS</td>
+							<td><span class="badge badge-danger">-294.27</td>
+						</tr>
+
 						<tr>
 							<td><?php echo date('m/d', strtotime('-1 day')); ?></td>
 							<td>AMZN MARKETPLACE</td>
@@ -233,7 +234,7 @@
 						<tr>
 							<td><?php echo date('m/d', strtotime('-1 days')); ?></td>
 							<td>QVC*SHOPPING BILL</td>
-							<td><span class="badge badge-danger">-$140.50.00</td>
+							<td><span class="badge badge-danger">-$140.50</td>
 						</tr>
 						
 						
