@@ -1,5 +1,9 @@
-# UpDog-Credit-Union
-Kitboga's UpDog Credit Union
+# Frog Union
+This is a fork of Up-dog credit union
+we made it newer and are going to maintain it
 
+you can use the site we host or you can host it your self
 
-Copied as closely as possible to the fake bank that Kitboga made on his livestream on May 13, 2018.
+site username = "anything you want"
+
+site password = hunter2
